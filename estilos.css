@@ -1,0 +1,83 @@
+.container-table{
+    width: 90%;
+    background:  white;
+    margin: 50px auto;
+    box-shadow: 0 0 20px #333;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 50px;
+}
+
+.table__title{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background: rgb(197, 110, 29);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.9em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table__header, .table__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table__header{
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.table__item{
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-add{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.container__title{
+    margin: 0;
+    padding: 10px;
+    background: rgb(221, 43, 30);
+    color: white;
+    font-size: 1.9em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container__form{
+    background: white;
+    box-shadow: 0 0 20px rgb(175, 37, 37);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container__label{
+    font-size: 1.3em;
+    width: 20%;
+}
+
+.container__input{
+    width: 25%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.container__submit{
+    background: rgb(40, 199, 34);
+    color: white;
+
+}
